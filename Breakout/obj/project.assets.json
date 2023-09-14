@@ -461,19 +461,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Cim\\.nuget\\packages\\": {}
+    "C:\\Users\\b23cimbr\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Cim\\RiderProjects\\Breakout\\Breakout\\Breakout.csproj",
+      "projectUniqueName": "C:\\Users\\b23cimbr\\RiderProjects\\breakout\\Breakout\\Breakout.csproj",
       "projectName": "Breakout",
-      "projectPath": "C:\\Users\\Cim\\RiderProjects\\Breakout\\Breakout\\Breakout.csproj",
-      "packagesPath": "C:\\Users\\Cim\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Cim\\RiderProjects\\Breakout\\Breakout\\obj\\",
+      "projectPath": "C:\\Users\\b23cimbr\\RiderProjects\\breakout\\Breakout\\Breakout.csproj",
+      "packagesPath": "C:\\Users\\b23cimbr\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\b23cimbr\\RiderProjects\\breakout\\Breakout\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Cim\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\b23cimbr\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
@@ -522,7 +522,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
       }
     }
   }

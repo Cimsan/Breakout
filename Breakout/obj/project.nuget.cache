@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "GOAgPb1SRFZOKKcYSyQmKEHioLRZbRXAbDvRLuMMPkGi2XAAddGyN66d+x4076Ic7mf4cRnO7fDKToWl4ATLUg==",
+  "dgSpecHash": "z3ESuFSnY0lo+J85ndlz7JlzH9LbSLVx/1mBDNzxYTQoWShCtNoI+vWWQFqG0b1FsvwQsRpXIVfGjHXyc0sWlQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Cim\\RiderProjects\\Breakout\\Breakout\\Breakout.csproj",
+  "projectFilePath": "C:\\Users\\b23cimbr\\RiderProjects\\breakout\\Breakout\\Breakout.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Cim\\.nuget\\packages\\csfml\\2.5.0\\csfml.2.5.0.nupkg.sha512",
-    "C:\\Users\\Cim\\.nuget\\packages\\sfml.audio\\2.5.0\\sfml.audio.2.5.0.nupkg.sha512",
-    "C:\\Users\\Cim\\.nuget\\packages\\sfml.graphics\\2.5.0\\sfml.graphics.2.5.0.nupkg.sha512",
-    "C:\\Users\\Cim\\.nuget\\packages\\sfml.net\\2.5.0\\sfml.net.2.5.0.nupkg.sha512",
-    "C:\\Users\\Cim\\.nuget\\packages\\sfml.system\\2.5.0\\sfml.system.2.5.0.nupkg.sha512",
-    "C:\\Users\\Cim\\.nuget\\packages\\sfml.window\\2.5.0\\sfml.window.2.5.0.nupkg.sha512"
+    "C:\\Users\\b23cimbr\\.nuget\\packages\\csfml\\2.5.0\\csfml.2.5.0.nupkg.sha512",
+    "C:\\Users\\b23cimbr\\.nuget\\packages\\sfml.audio\\2.5.0\\sfml.audio.2.5.0.nupkg.sha512",
+    "C:\\Users\\b23cimbr\\.nuget\\packages\\sfml.graphics\\2.5.0\\sfml.graphics.2.5.0.nupkg.sha512",
+    "C:\\Users\\b23cimbr\\.nuget\\packages\\sfml.net\\2.5.0\\sfml.net.2.5.0.nupkg.sha512",
+    "C:\\Users\\b23cimbr\\.nuget\\packages\\sfml.system\\2.5.0\\sfml.system.2.5.0.nupkg.sha512",
+    "C:\\Users\\b23cimbr\\.nuget\\packages\\sfml.window\\2.5.0\\sfml.window.2.5.0.nupkg.sha512"
   ],
   "logs": []
 }

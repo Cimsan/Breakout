@@ -20,6 +20,7 @@
 using System;
 using SFML.System;
 
+
 namespace breakout {
     
     /// <summary>

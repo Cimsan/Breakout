@@ -2,41 +2,52 @@
 using SFML.System;
 using SFML.Window;
 
+
 namespace breakout;
 
 public class Paddle
 {
     public Sprite sprite;
     public Vector2f size;
+    public const float Diameter = 20.0f;
+    public const float Radius = Diameter * 0.5f;
     public Paddle()
     {
         sprite = new Sprite();
-        sprite.Texture = new Texture("C:\\Users\\Cim\\RiderProjects\\Breakout\\assets\\paddle.png");
-        sprite.Position = new Vector2f(250, 750);
+        sprite.Texture = new Texture("assets\\paddle.png");
+        sprite.Position = new Vector2f(280, 750);
         
     }
     
-    public void Update(Ball ball, float deltaTime)//Paddle doesn't move or interract with the ball, yet.
+    public void Update(Ball ball, float deltaTime)
     {
         var newPos = sprite.Position;
         if (Keyboard.IsKeyPressed(Keyboard.Key.Right))
         {
-            newPos.X += deltaTime * 300.0f;
+            newPos.X += deltaTime * 400.0f;
+            if (newPos.X > Program.ScreenW)
+            {
+                newPos.X = Program.ScreenW;// - size.X / 2;
+            }
         }
 
         if (Keyboard.IsKeyPressed(Keyboard.Key.Left))
         {
-            newPos.X -= deltaTime * 300.0f;
+            newPos.X -= deltaTime * 400.0f;
+            if (newPos.X < size.X)
+            {
+                newPos.X = size.X; 
+            }
         }
  
         if (Collision.CircleRectangle(
                 ball.sprite.Position, Ball.Radius,
-                this.sprite.Position, size, out Vector2f hit))
+                new Vector2f(this.sprite.Position.X - size.X / 2, this.sprite.Position.Y - size.Y / 2), size, out Vector2f hit))
         {
             ball.sprite.Position += hit;
             ball.Reflect(hit.Normalized());
         }
-
+        
         sprite.Position = newPos;
         
     }
@@ -55,7 +66,4 @@ public class Paddle
                 sprite.GetGlobalBounds().Height
             );
         }
-
-    public const float Diameter = 20.0f;    
-    
 }
